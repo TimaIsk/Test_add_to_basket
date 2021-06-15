@@ -8,5 +8,5 @@ def test_add_basket_button(browser):
     time.sleep(30)
     button = browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary btn-add-to-basket"]')
 
-    assert len(button) > 0, " Mission: Impossible"
+    assert len(button) > 0, "Mission: Impossible"
     
